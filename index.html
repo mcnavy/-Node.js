@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Тестовая форма</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link type="image/x-icon" rel ="shortcut icon" href="barca.png">
+</head>
+<body>
+<form id="myForm" onsubmit="return false;">
+	<div>
+		<label> ФИО</label>
+
+        <br>
+		<input name="fio" placeholder="Петров Петр Петрович" required>
+	</div>
+    <br>
+	<div>
+		<label>Email</label>
+
+        <br>
+		<input name="email" placeholder="petrov@yandex.ru" required>
+	</div>
+    <br>
+	<div>
+		<label>Телефон</label>
+        <br>
+
+
+		<input name="phone" placeholder="+7(999)999-99-99" required>
+	</div>
+    <br>
+	<div align="right">
+		<button id ="submitButton"> Отправить</button>
+
+		<div id="resultContainer"></div>
+	</div>
+	
+</form>
+
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
